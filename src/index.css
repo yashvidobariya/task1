@@ -1,0 +1,226 @@
+
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifx;
+}
+
+.form-container {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 50%;
+  margin: 70px 25%;
+  height: 400px;
+}
+
+.row button {
+  background-color: #d7dadd;
+  border-radius: 8px;
+  border: none;
+  margin: 8px 5px;
+  width: 70px;
+
+}
+
+.submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  width: 120px;
+  border-radius: 20px;
+  border: 1px solid rgb(20, 40, 128);
+}
+
+/* HEADER */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background: rgb(248, 246, 248);;
+  color: rgb(160, 27, 172);
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.9em;
+  padding: 30px 50px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 2.2rem;
+  font-size: 22px;
+  
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  &:hover{
+    color: plum;
+  }
+}
+
+.title {
+  font-size: 25px;
+}
+
+.row h1 {
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  margin:0 0 100px 0;
+  font-weight: 200;
+  color: rgb(160, 27, 172)
+}
+
+.row p{
+  font-size: 25px;
+  margin-top: 70px;
+  font-weight: 900;
+  justify-content: center;
+  display: flex;
+  color: rgb(160, 27, 172)
+}
+
+.card-header h5{
+  color: rgb(160, 27, 172) ;
+}
+.bg-div {
+  background-image: url('/src/image/bg.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-size: 18px;
+  justify-content: center;
+  display: flex;
+  color: rgb(160, 27, 172);
+    margin-top: 30px;
+}
+
+.post-link {
+  color: rgb(160, 27, 172);
+  float: right;
+  margin: 0 10px;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  background-color: rgb(160, 27, 172);
+  height: 150px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footer h2 {
+  padding-top: 50px;
+  color: rgb(160, 27, 172)
+
+}
+
+.footer p {
+  color: #000;
+}
+
+/* addpost */
+
+.table{
+  margin: 20px;
+}
+.save button {
+  background-color: rgb(160, 27, 172);
+  color: white;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 8px 30px;
+  border-radius: 10px;
+}
+
+.read button {
+  background-color: rgb(160, 27, 172);
+  color: white;
+  margin-left: 30px;
+  border: none;
+  margin-top: 20px;
+  padding: 8px 30px;
+  border-radius: 10px;
+}
+
+
+/* home */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 490px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card-container img{
+  width: 100%;
+  height: 250px;;
+}
+
+.card-header h5 {
+  margin: 20px 0;
+  font-size: 1.25em;
+}
+
+.card-body .card-text {
+  color: #000;
+  margin-top: 10px ;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.post-link {
+  color: rgb(160, 27, 172);
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+.card-body p{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
